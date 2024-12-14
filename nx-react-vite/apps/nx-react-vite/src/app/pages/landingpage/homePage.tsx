@@ -1,6 +1,6 @@
 import NxWelcome from './nx-welcome';
 
-export function App() {
+export function HomePage() {
   return (
     <div>
       <NxWelcome title="nx-react-vite" />
@@ -8,4 +8,4 @@ export function App() {
   );
 }
 
-export default App;
+export default HomePage;
