@@ -9,7 +9,8 @@ import  { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />
+    element: <HomePage />,
+    errorElement: <div>404 Not Found</div>
   },
   {
     path: '/dashboard',
